@@ -13,7 +13,7 @@ const corsOptions = {
     // Change this from a string to an array
     origin: [
         process.env.FRONTEND_URL || 'http://localhost:5173',
-        'https://www.kloudshark.com' // <-- Add your new origin here
+        'https://kloud-shark.vercel.app' // <-- Add your new origin here
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
